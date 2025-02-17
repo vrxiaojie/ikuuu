@@ -1,3 +1,5 @@
+<a href="https://hub.docker.com/r/vrxiaojie/ikuuu-checkin"><img src="https://www.docker.com/app/uploads/2023/08/logo-guide-logos-1.svg" alt="Docker"></a>
+
 # 简介
 本项目为ikuuu每日签到脚本，支持本地Python运行及Docker定时运行。
 
