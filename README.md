@@ -1,4 +1,13 @@
-<a href="https://hub.docker.com/r/vrxiaojie/ikuuu-checkin"><img src="https://www.docker.com/app/uploads/2023/08/logo-guide-logos-1.svg" alt="Docker"></a>
+<p align="center">
+<a href="https://hub.docker.com/r/vrxiaojie/ikuuu-checkin"><img src="/images/docker-logo-blue.png" alt="Docker"></a>
+</p>
+
+<p align="center">
+<img alt="Static Badge" src="https://img.shields.io/badge/image-ikuuu--checkin-blue">
+<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/vrxiaojie/ikuuu-checkin?cacheSeconds=https%3A%2F%2Fhub.docker.com%2Fr%2Fvrxiaojie%2Fikuuu-checkin">
+<img alt="Docker Image Size" src="https://img.shields.io/docker/image-size/vrxiaojie/ikuuu-checkin?cacheSeconds=https%3A%2F%2Fhub.docker.com%2Fr%2Fvrxiaojie%2Fikuuu-checkin">
+<img alt="Docker Image Version" src="https://img.shields.io/docker/v/vrxiaojie/ikuuu-checkin?link=https%3A%2F%2Fhub.docker.com%2Fr%2Fvrxiaojie%2Fikuuu-checkin">
+</p>
 
 # 简介
 本项目为ikuuu每日签到脚本，支持本地Python运行及Docker定时运行。
