@@ -83,6 +83,7 @@ def run():
         try:
             login()
             sign_in()
+            break
 
         except Exception as e:
             if retry == 3:
