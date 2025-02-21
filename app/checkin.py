@@ -78,15 +78,21 @@ def sign_in():
 
 
 def run():
-    try:
-        login()
-        sign_in()
+    retry = 0
+    while True:
+        try:
+            login()
+            sign_in()
 
-    except Exception as e:
-        print("出现错误: {}".format(e))
+        except Exception as e:
+            if retry == 3:
+                print("出现错误: {}".format(e))
+                break
+            retry += 1
+            print(f"等待10s，第{retry}次重试")
+            time.sleep(10)
 
-    finally:
-        driver.quit()
+    driver.quit()
 
 
 if __name__ == '__main__':
