@@ -57,3 +57,16 @@ vrxiaojie/ikuuu-checkin
 注:
 1. 程序不会去存储你的用户名密码，是通过环境变量获取到用户名和密码的。具体登录逻辑可查看app/checkin.py文件。
 2. 5位cron表达式是 **分时日月年** 格式，例如`15 7 * * *`表示每天7点15分执行一次程序。
+3. 请为docker容器预留至少**1GB内存**，以防内存不足程序运行异常。
+
+## 3 自行构建
+先克隆本仓库
+```bash
+git clone https://github.com/vrxiaojie/ikuuu.git
+```
+
+进入仓库文件夹并开始构建
+```bash
+cd ikuuu && docker build -t ikuuu-checkin .
+```
+
